@@ -1,0 +1,198 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+.hero-container,
+.footer {
+    background-color: #1F2937;
+    padding: 0 200px;
+    width: 100%;
+}
+
+.menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: none;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.hero-message {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-holder {
+    background-color: grey;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 530px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 25px;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.info-container {
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+    flex: 1;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 40px 0;
+}
+
+.info-contents {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    width: 170px;
+    height: 170px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: 2px;
+}
+
+.content {
+    width: 160px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 780px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 18px;
+    align-self: flex-end;
+    padding-right: 40px;
+}
+
+.call-to-action-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    margin: 80px 200px;
+    padding: 30px 100px;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 800px;
+    flex: 1;
+}
+
+.call-to-action .title {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call-to-action .message {
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    padding: 5px 25px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.footer {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
